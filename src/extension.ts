@@ -2,7 +2,7 @@
 import * as vscode from "vscode"
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "rx-analyzer" is now active!')
+  console.log('rx-analyzer activated')
 
   let disposable = vscode.commands.registerCommand(
     "rx-analyzer.helloWorld",

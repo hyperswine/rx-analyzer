@@ -14,10 +14,11 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "grammars": [
       {
-        "command": "rx-analyzer.helloWorld",
-        "title": "Hello World"
+        "language": "ra_syntax_tree",
+        "scopeName": "source.ra_syntax_tree",
+        "path": "ra_syntax_tree.tmGrammar.json"
       }
     ]
   },
